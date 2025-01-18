@@ -1,0 +1,116 @@
+body {
+    background-image: url(Background_full.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 20px;
+    min-height: 100vh;
+    justify-content: center;    
+    font-family: 'Helvetica Neue';
+}
+
+.connection-header {
+    /* display: flex;
+    flex-direction: column; */
+    width: 90vw;
+    justify-content: center;
+    align-items: center;    
+    /* padding-top: 0px;
+    padding: 10px; */
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 16px;
+    color: #666464;
+    margin: 0px;
+}
+
+.dataphys-initial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    max-height: 60vh;
+}
+
+.dataphys-initial img{
+    align-items: center;
+    max-width: 80vw;
+    max-height: calc(65vh - 20px);
+    justify-content: center;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+img {
+    max-width: 90%;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    object-fit: contain;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.dataphys-initial ImageMain {
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.button-container {
+    text-align: center; 
+    margin-top: 0px; 
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.button {
+    height: 70px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background-color: transparent; /* Makes the background transparent */
+    border: none; /* Removes default button border */
+    cursor: pointer; 
+}
+
+.button-imaged {
+    width: 100px; /* Adjust the size of the button image */
+    height: auto; /* Maintains aspect ratio */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+
+
+.menu-item p {
+    font-size: 12px; /* Smaller text size */
+    color: #666464; /* Set the text color */
+}
+
+
+
+/* Hover effect on links */
+.navbar a:hover {
+    background-color: #f0f0f0;  /* Light gray background on hover */
+    border-radius: 4px;
+}
+
+.menu-item:nth-child(4) .nav-icon {
+    fill: red;
+}

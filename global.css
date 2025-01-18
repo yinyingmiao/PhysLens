@@ -1,0 +1,91 @@
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    max-height: 8vh;
+    width: 100%;
+    background-color: white;  
+    border-radius: 15px 15px 0 0;
+    border-top: 1px solid #ddd; /* the border effect */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end; /* to the end of the bar */
+    padding: 5px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); 
+    position: relative;
+    z-index: 10;
+}
+
+/* Styling for links inside the navbar */
+.nav-items {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px;  /* Space between each item */
+    width: 60px;     /* Width for each item */
+}
+
+.nav-icon {
+    width: 20px;     /* Size of the icon */
+    height: 20px;    /* Size of the icon */
+    object-fit: contain; 
+    border-radius: 0;
+    align-items: center;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.nav-items a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit;        /* Inherits the text color from its parent */
+    display: inline-flex;  /* Ensures inline content aligns nicely */
+    flex-direction: column;
+    align-items: center;   /* Aligns items vertically in a row */
+}
+
+.nav-items a:hover {
+    text-decoration: none;  /* Ensures underline doesn’t return */
+}
+
+.special-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 35px; /* to move it vertically */
+    text-align: center;
+    margin-top: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.circle-btn {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto;
+}
+
+.nav-text{
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+}
+
+h1{
+    font-weight: 900;
+    color: #A17A69;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 16px;
+    color: #666464;
+    margin-bottom: 4px;
+}

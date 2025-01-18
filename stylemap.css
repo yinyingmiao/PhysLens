@@ -1,0 +1,137 @@
+body {
+    background-image: url(Background_Partial.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 20px;
+    min-height: 100vh;
+    justify-content: center;    
+    font-family: 'Helvetica Neue';
+}
+
+h1{
+    font-weight: 900;
+    color: #A17A69;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 16px;
+    color: #666464;
+    margin-bottom: 4px;
+    margin-top: 50px;
+}
+
+.connection-header {
+    /* display: flex;
+    flex-direction: column; */
+    width: 90vw;
+    justify-content: center;
+    align-items: center;    
+    /* padding-top: 0px;
+    padding: 10px; */
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+
+.dataphys-02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    max-height: 60vh;
+    margin-bottom: 0px;
+}
+
+.dataphys-02 img{
+    align-items: center;
+    max-width: 50vw;
+    max-height: calc(65vh - 20px);
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.map-carddeck1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    max-height: 60vh;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    margin: 0px;
+    position: relative; /* Ensures child elements can be positioned absolutely */
+}
+
+.map-carddeck1 {
+    display: flex;
+    flex-wrap: wrap; /* Ensure items wrap if there's not enough space */
+    gap: 10px; /* Add spacing between cards */
+}
+
+
+.map-carddeck1 img{
+    align-items: center;
+    max-width: 80vw;
+    max-height: calc(15vh - 20px);
+    justify-content: center;
+    display: block;
+    height: auto;
+    width: auto;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.map-card-link1 {
+    display: block; 
+    width: 100%; /* Makes the link span the width of its container (optional) */
+    max-width: 80%; /* Limits the link's width for responsiveness */
+}
+
+.map-card-link1 img {
+    display: block; /* Centers the image and removes inline-block spacing issues */
+    width: 100%; /* Ensures the image fills the link's width */
+    height: auto; /* Maintains the image's aspect ratio */
+    border-radius: 20px; /* Rounds the image's corners */
+}
+
+
+.LightCardClass {
+    max-height: 50vh;    
+    max-width: 100%;   
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px 4px rgba(0, 0, 0, 0.15);
+    display: block;
+}
+
+
+.button-container {
+    text-align: center; 
+    margin-top: 25px; 
+    margin-bottom: 40px;
+    padding-bottom: 0px;
+}
+
+.button {
+    margin: 0;
+    padding: 0;
+    background-color: transparent; /* Makes the background transparent */
+    border: none; /* Removes default button border */
+    cursor: pointer; 
+}
+
+.button-imaged {
+    width: 100px; /* Adjust the size of the button image */
+    height: auto; /* Maintains aspect ratio */
+}

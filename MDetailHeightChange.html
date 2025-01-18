@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhysLensOutput</title>
+    <link rel="stylesheet" href="MDetailHeight.css">
+    <link rel="stylesheet" href="../global.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+
+<body>
+     
+        <div class="content">
+            <div class="connection-header">
+                <h1> Map </h1>
+                
+                <div class="dataphys-initial">
+                    <img src="MapTop.jpg" alt="ImageSub01">
+                </div>
+
+                <h2> Choose the setting for how you would like to see the data through height:</h2>
+            </div>   
+            
+            <div class="choice-bar">
+                <div class="choice" id="choice1" onclick="selectChoice('choice1')">
+                  <img src="cumchange.svg" alt="Choice 1">
+                  <div class="overlay"></div>
+                </div>
+            
+                <div class="choice" id="choice2" onclick="selectChoice('choice2')">
+                  <img src="warning.svg" alt="Choice 2">
+                  <div class="overlay"></div>
+                </div>
+
+                <div class="choice" id="choice3" onclick="selectChoice('choice3')">
+                    <img src="incdec.svg" alt="Choice 3">
+                    <div class="overlay"></div>
+                  </div>
+            </div>
+
+            <div class="button-container">
+                <a href="MDetailHeight.html">
+                    <button class="button">
+                        <img src="Ok-btn.svg" alt="ok" class="button-imaged">
+                    </button>
+                </a>
+            </div> 
+            
+            <script>
+                function selectChoice(choiceId) {
+                  document.querySelectorAll('.choice').forEach(choice => {
+                    choice.classList.remove('selected');
+                  });
+            
+                  // Add 'selected' class to the clicked choice
+                  document.getElementById(choiceId).classList.add('selected');
+                }
+              </script>
+
+        </div>
+
+        <div class ="navbar">
+            <div class ="navbar">
+                <div class ="nav-items">
+                    <a href="OutputMain.html">
+                    <img src="Output_Icon.svg" alt="Output" class="nav-icon">
+                    <span class="nav-text">Form</span></a>
+                </div>
+                <div class ="nav-items">
+                    <a href="InputMain.html">
+                    <img src="Input_Icon.svg" alt="Input" class="nav-icon">
+                    <span class="nav-text">Input</span></a>
+                </div>
+                
+                <div class="nav-items">
+                    <div class = "special-nav">
+                        <a href="index.html">
+                        <img src="Scan Icon.svg" alt="Capture!" class="circle-btn">
+                        <span class="nav-text">Capture!</span></a>
+                    </div>
+                </div>
+                
+                <div class ="nav-items">
+                    <a href="MapMain.html">
+                    <img src="Map_On.svg" alt="Map" class="nav-icon">
+                    <span class="nav-text">Map</span></a>
+                </div>
+                
+                <div class ="nav-items">
+                    <a href="PresentMain.html">
+                    <img src="Present_Icon.svg" alt="Present" class="nav-icon">
+                    <span class="nav-text">Present</span> </a>
+                </div>
+             </div> 
+         </div>  
+    
+
+
+</body>
